@@ -4,7 +4,7 @@ Donate link: http://www.cloughit.com.au/donate/ (coming soon)
 Tags: async,javascript,google,pagespeed,js,speed,performance,boost,render,blocking,above-the-fold
 Requires at least: 2.8
 Tested up to: 4.0.1
-Stable tag: 1.14.12.11
+Stable tag: 1.14.12.11.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,15 @@ Contact David Clough @ Clough I.T. Solutions - support@cloughit.com.au
 1. this screen shot description corresponds to async-javascript-screenshot1.jpg and shows the admin page for Async Javascript
 
 == Changelog ==
+
+= 1.14.12.11.2
+* Repaired broken SVN issue preventing plugin install
+
+= 1.14.12.11.1
+* Repaired broken SVN issue preventing plugin install
+
+= 1.14.12.11 =
+* Updated minor versioning issue
 
 = 1.14.12.10 =
 * Genesis
