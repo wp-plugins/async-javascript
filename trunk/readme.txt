@@ -4,7 +4,7 @@ Donate link: http://www.cloughit.com.au/donate/
 Tags: async,javascript,google,pagespeed,js,speed,performance,boost
 Requires at least: 2.8
 Tested up to: 4.0.1
-Stable tag: 1.0
+Stable tag: 1.14.12.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
