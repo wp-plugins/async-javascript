@@ -2,9 +2,9 @@
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 /*
 Plugin Name: Async Javascript
-Plugin URI: http://www.cloughit.com.au/projects/async-javascript/
-Description: Async Javascript adds a 'async' attribute to scripts loaded via wp_enqueue_script
-Version: 0.14.12.10
+Plugin URI: http://www.cloughit.com.au/wordpress/plugins/async-javascript-wordpress-plugin/
+Description: Async Javascript adds a 'async' or 'defer' attribute to scripts loaded via wp_enqueue_script
+Version: 1.14.12.11
 Author: David Clough (cloughit)
 Author URI: http://www.cloughit.com.au/
 Text Domain: async-javascript
