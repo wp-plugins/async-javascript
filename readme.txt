@@ -3,7 +3,7 @@ Contributors: (cloughit)
 Donate link: http://www.cloughit.com.au/donate/ (coming soon)
 Tags: async,javascript,google,pagespeed,js,speed,performance,boost,render,blocking,above-the-fold
 Requires at least: 2.8
-Tested up to: 4.0.1
+Tested up to: 4.1
 Stable tag: 1.14.12.11.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
