@@ -3,8 +3,8 @@ Contributors: (cloughit)
 Donate link: http://www.cloughit.com.au/donate/ (coming soon)
 Tags: async,javascript,google,pagespeed,js,speed,performance,boost,render,blocking,above-the-fold
 Requires at least: 2.8
-Tested up to: 4.1
-Stable tag: 1.14.12.19
+Tested up to: 4.1.1
+Stable tag: 1.15.02.23
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,10 @@ Contact David Clough @ Clough I.T. Solutions - support@cloughit.com.au
 1. this screen shot description corresponds to async-javascript-screenshot1.jpg and shows the admin page for Async Javascript
 
 == Changelog ==
+
+= 1.15.02.23
+* Tested for WordPress v4.1.1
+* Added ability to provide a comma seperated list of scripts to be excluded from async/defer (thanks to Nico Ryba for this suggestion)
 
 = 1.14.12.19
 * Tested for Wordpress v4.1
