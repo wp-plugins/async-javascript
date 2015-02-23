@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 Plugin Name: Async Javascript
 Plugin URI: http://www.cloughit.com.au/wordpress/plugins/async-javascript-wordpress-plugin/
 Description: Async Javascript adds a 'async' or 'defer' attribute to scripts loaded via wp_enqueue_script
-Version: 1.15.02.23
+Version: 1.15.02.23.1
 Author: David Clough (cloughit)
 Author URI: http://www.cloughit.com.au/
 Text Domain: async-javascript
@@ -157,14 +157,16 @@ function async_js($url) {
 	$aj_enabled = (get_option('aj_enabled') == 1) ? true : false;
 	$aj_method = (get_option('aj_method') != 'async') ? 'defer' : 'async';
 	$aj_exclusions = get_option('aj_exclusions');
-	$array_exclusions = explode(',',$aj_exclusions);
+	$array_exclusions = !empty($aj_exclusions) ? explode(',',$aj_exclusions) : $aj_exclusions;
 	if (false !== $aj_enabled && false === is_admin()) {
 		if (false === strpos($url,'.js')) {
 			return $url;
 		}
-		foreach ($array_exclusions as $exclusion) {
-			if (false !== strpos(strtolower($url),strtolower($exclusion))) {
-				return $url;
+		if (is_array($array_exclusions) && !empty($array_exclusions)) {
+			foreach ($array_exclusions as $exclusion) {
+				if (false !== strpos(strtolower($url),strtolower($exclusion))) {
+					return $url;
+				}
 			}
 		}
 		return $url . "' " . $aj_method . "='" . $aj_method;
