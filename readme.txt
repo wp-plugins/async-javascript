@@ -60,6 +60,9 @@ Contact David Clough @ Clough I.T. Solutions - support@cloughit.com.au
 
 == Changelog ==
 
+= 1.15.02.23.1
+* Code error fix
+
 = 1.15.02.23
 * Tested for WordPress v4.1.1
 * Added ability to provide a comma seperated list of scripts to be excluded from async/defer (thanks to Nico Ryba for this suggestion)
